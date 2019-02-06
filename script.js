@@ -99,7 +99,7 @@ let displayIdeas = () => {
     //creation du bouton edit
     let editBtn = document.createElement ("button");
     editBtn.setAttribute("class", "modal-edit-btn");
-    editBtn.innerText = "Edit";
+    editBtn.innerText = "";
 
     // function edit
     editBtn.addEventListener('click', () => {
@@ -126,7 +126,7 @@ let displayIdeas = () => {
     let deleteBtn = document.createElement ("button");
     deleteBtn.setAttribute("id", "delete" + i);
     deleteBtn.setAttribute("class", "modal-delete-btn");
-    deleteBtn.innerText = "Delete";
+    deleteBtn.innerText = "";
 
     // function delete
     deleteBtn.addEventListener('click', () => {
@@ -141,7 +141,7 @@ let displayIdeas = () => {
     // creation du bouton Display
     let displayBtn = document.createElement ("button");
     displayBtn.setAttribute("class", "modal-display-btn");
-    displayBtn.innerText = "Display";
+    displayBtn.innerText = "";
 
 
     // function Display

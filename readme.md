@@ -7,3 +7,14 @@ We need to conquer the world. Let's propose all your ideas [here](https://scalaj
 ## What's this repo anyway?
 
 It's just a group exercice for getting better at working together with Git. It's writtent in JS and HTML/CSS.
+
+## To run the application localy you need
+
+//Install node and NPM
+[Google is your friend](http://google.com)
+
+//Install remarkable
+npm install remarkable --save
+
+//Follow these instructions to install templates / node_modules dependencies
+[Install templates](https://github.com/becodeorg/becode-js-web-template)

@@ -18,28 +18,29 @@
 <body>
   <div class="container">
     <header>
-      <h1>Majopovi</h1>
+      <h1 class="titleRed">Mad Jobless Powerfull Villains</h1>
       <h2>
-        <strong><i class="fas fa-arrow-right"></i> Majopovi <i class="fas fa-arrow-left"></i></strong>
+        <strong><i class="fas fa-arrow-right"></i> Team of great villains <i class="fas fa-arrow-left"></i></strong>
       </h2>
     </header>
     <div class="content">
+      <img src="/img/logo2.png">
       <article class="ideas-list">
 
         <!--insert list of ideas here-->
 
         <ul></ul>
-        <button id="modal-add-btn">Add Modal</button>
+        <button id="modal-add-btn">Click here to add a bad idea</button>
       </article>
       <!--Modal for adding ideas-->
       <div id="modal-add" class="modal">
         <div class="modal-content">
           <div class="modal-header">
-            <h1>Add an idea</h1>
+            <h1>What's your bad idea ?</h1>
             <span class="close">&times;</span>
           </div>
-          <input id="modal-title" value="Title"></input>
-          <textarea id="modal-descr" cols="30" rows="10"></textarea>
+          <input id="modal-title" placeholder="Title"></input>
+          <textarea id="modal-descr" cols="30" rows="10" placeholder="Description..."></textarea>
           <button class="add-idea">Add your idea</button>
         </div>
       </div>
@@ -50,7 +51,7 @@
             <h1>Edit an idea</h1>
             <span class="close">&times;</span>
           </div>
-          <h1 class="idea-title">Title:</h1>
+          <h1 class="idea-title" placeholder="Title"></h1>
           <input id="edit-title" value="content of title"></input>
           <p class="idea-descr">Idea Description:</p>
           <textarea id="edit-descr" cols="30" rows="10"></textarea>

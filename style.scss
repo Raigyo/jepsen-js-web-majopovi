@@ -7,11 +7,13 @@
   If you need some CSS for any reason you can put it here.
 */
 
-body {font-family: Arial, Helvetica, sans-serif;}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
 
 /* The Modal (background) */
 .modal {
-  display: none; /* Hidden by default */
+  display: none;; /* Hidden by default */
   position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
   padding-top: 100px; /* Location of the box */
@@ -22,6 +24,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
   overflow: auto; /* Enable scroll if needed */
   background-color: rgb(0,0,0); /* Fallback color */
   background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  margin: auto;
 }
 
 /* Modal Content */
@@ -30,13 +33,14 @@ body {font-family: Arial, Helvetica, sans-serif;}
   background-color: #fefefe;
   margin: auto;
   padding: 0;
-  border: 1px solid #888;
-  width: 80%;
+  border: 1px solid black;
+  width: 60%;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
   -webkit-animation-name: animatetop;
   -webkit-animation-duration: 0.4s;
   animation-name: animatetop;
-  animation-duration: 0.4s
+  animation-duration: 0.4s;
+  border-radius: 20px;
 }
 
 /* Add Animation */
@@ -67,13 +71,14 @@ body {font-family: Arial, Helvetica, sans-serif;}
 
 .modal-header {
   padding: 2px 16px;
-  align-content: left;
-  //padding: 2px 16px;
-  background-color: #5cb85c;
+  align-content:left;
+  background-color: #B22222;
   color: white;
 }
 
-.modal-body {padding: 2px 16px;}
+.modal-body {
+  padding: 2px 16px;
+}
 
 
 .modal-footer {
@@ -92,9 +97,112 @@ body {font-family: Arial, Helvetica, sans-serif;}
 
 /*Modifications*/
 
+/*Modifie la taille et la position du logo*/
 img{
   height: 200px;
   margin:auto;
   display: block;
-  margin-top: -50px;
+  margin-top: 50px;
+  margin-bottom: 40px;
 }
+
+/*Modifie la couleur de fond du siteweb*/
+body{
+  background-image: url("/img/fond6.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*Modification couleur titre principal*/
+.titleRed{
+  background-color: #B22222;
+}
+
+article{
+  color:white;
+  margin-bottom: 10px;
+}
+
+/*Centre le bouton de clic pour afficher la modale*/
+.container{
+  display:block;
+  margin:auto;
+  text-align: center;
+}
+
+/*Modifie le titre principal de la modale*/
+.modal h1{
+  font-size: 30px;
+  margin: auto;
+}
+
+/*Modifie le style des boutons*/
+button{
+  background-color:black;
+  color:white;
+  box-shadow: 3px 3px 3px 3px rgba(0,0,0,0.10);
+  margin-top: 10px;
+}
+
+/*-----FLEXBOX-----*/
+.ideas-list ul{
+  display:flex;
+  flex-wrap: wrap;
+  width:90%;
+  margin:auto;
+  /*background-color: green;*/
+  height:100%;
+}
+
+/*Supprimer le style de la liste d'idées*/
+.container li{
+  list-style-type: none;
+  margin:20px;
+  background-color: #B22222;
+  box-shadow: 3px 3px 3px 3px rgba(0,0,0,0);
+  border-radius:6px;
+  border:2px solid black;
+  width: 25%;
+  height:120px;
+  position: relative;
+  font-size: 20px;
+  text-align: center;
+}
+
+/*Modifie la taille des boutons sur la page principale*/
+.modal-delete-btn , .modal-edit-btn , .modal-display-btn {
+  width:60px!important;
+  height:30px !important;
+  display:inline-block;
+  margin-top: 40px;
+}
+
+li button{
+  margin-top:40px;
+}
+
+/*Modifie les backgrounds sur les boutons du JS*/
+.modal-delete-btn {
+  background-image: url("/img/icon_delete_white.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #010101;
+}
+.modal-edit-btn {
+  background-image: url("/img/icon_edit_white.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.modal-display-btn {
+  background-image: url("/img/icon_zoom_white.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/*.content {
+  background-color:#B22222;
+  box-shadow: .25rem .25rem 2.5rem;
+}*/
