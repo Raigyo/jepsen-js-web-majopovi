@@ -1,3 +1,13 @@
+# Becode - Javascript CRUD and Api request- The Mad Jobless Powerfull Villain: centralize your ideas to take over the world
+
+![Becode logo](https://raw.githubusercontent.com/Raigyo/react-character-manager/master/img/becode-logo.png)
+
+*February 2019*
+
+> 🔨  Group work in Javascript. [Github page](https://raigyo.github.io/jepsen-js-web-majopovi/)
+
+* * *
+
 <img src="./img/logo.png" width="150" alt="logo Majopovi">
 
 # The Mad Jobless Powerfull Villain
